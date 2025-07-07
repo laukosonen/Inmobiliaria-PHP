@@ -1,0 +1,183 @@
+*{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+body{
+    background-color: #3eb97a;
+}
+
+
+#inicioSesion{
+    width:30%;
+    margin:auto;
+    border:1px solid green;
+    padding:30px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+
+#estadoPisoD{
+background-color: green;
+width: 150px;
+height: 40px;
+border:1px solid black;
+border-radius: 5px;  
+text-align: center;
+margin:auto;
+margin-top:20px;
+padding:2px;
+
+}
+
+
+#estadoPisoV{
+background-color:red;
+width: 150px;
+height: 40px;
+border:1px solid black;
+border-radius: 5px;  
+text-align: center;
+margin:auto;
+margin-top:20px;
+padding:2px;
+
+}
+
+#estadoPisoD p,#estadoPisoV p{
+    color:white;
+    margin:auto;
+    margin-top:5px;
+}
+
+.contenedorOpciones{
+    height: 500px;
+    margin:auto;
+    
+}
+
+
+#opcion1Comprador,#opcion1Vendedor{
+    width:50%;
+    height: 80%;
+    background-image: url(./img/imagenVerPiso.jpg);
+    background-size:cover;
+    border:1px solid green;
+    border-radius: 10%;
+    text-align: center;
+    padding-top:10px;
+    margin-right: 20px;
+    
+}
+
+
+#textoAccion{
+    background-color: #3eb97a!important;
+    padding:3px;
+    border-radius:40px;
+    margin-top: 10px;
+
+}
+
+#textoAccion a{
+    color:white!important;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+#opcion1Comprador a:hover,#opcion2Comprador a:hover{
+    color:green;
+}
+
+
+
+#opcion2Comprador,#opcion2Vendedor{
+    width:50%;
+    height: 80%;
+    border:1px solid green;
+    background-size: cover;
+    border-radius: 10%;
+    text-align: center;
+    padding-top:10px;
+ 
+}
+
+
+#opcion2Comprador{
+    background-image: url(./img/search.jpg);
+    
+}
+
+#opcion2Vendedor{
+    background-image: url(./img/imagenVenderPiso.jpg);
+}
+
+#botonComprar{
+        
+        width: 150px;
+        height: 30px;
+        border:3px solid green;
+        border-radius: 5px;  
+        text-align: center;
+        margin:auto;
+        margin-top:20px;
+        color:green;
+        
+}
+
+.contenedor{
+   
+    background-color: yellow;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+ 
+}
+
+#confirmacionCompra{
+   
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+
+}
+
+.col-3{
+    padding:20px;
+    border:1px solid black;
+    margin-right:3px;
+    text-align:left;   
+    background-color: white;
+}
+
+#formularioAltaPiso{
+    width: 40%;
+    margin:auto;
+    background-color: white;
+    padding:50px;
+    border-radius: 5px;   
+}
+
+input[type=text],input[type=number],input[type=email],input[type=file]{
+    border:1px solid #3eb97a;
+}
+
+input[type=number]{
+    width:100px;
+}
+
+.anuncio{
+    height: 500px!important;;
+}
+
+input {
+    background-color: transparent !important;
+  }
+
+
+
+
